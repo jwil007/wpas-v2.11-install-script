@@ -9,8 +9,11 @@ Most Debian based distros are shipped with v2.10 as of March 2026, so this manua
 1. Clone the repo.
 2. Run `chmod +x install_wpa_supplicant_2.11.sh`
 3. Run `sudo ./install_wpa_supplicant_2.11.sh`
+4. Verify by running `wpa_supplicant -v`
 
-wpa_supplicant will autom
+The wpa_supplicant service is restarted at the end of the script. If you have an active Wi-Fi connection, you will be briefly disconnected. Existing SSID configuration should be maintained.
+
+
 
 >[!CAUTION]
 > This script replaces your existing wpa_supplicant binary. You should use this only on machines you are using for Wi-Fi testing, or if you have another specific usecase for v2.11. apt-get upgrade may move you back to v2.10.
