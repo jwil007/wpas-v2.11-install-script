@@ -1,7 +1,7 @@
 # wpas-v2.11-install-script
 Shell script to build, install, and upgrade to wpa_supplicant version v2.11.
 
-Manually downloads and builds wpa_supplicant version 2.11, which is often needed for better 6GHz/Wi-Fi7 behavior.
+Automatically downloads and builds wpa_supplicant version 2.11, which is often needed for better 6GHz/Wi-Fi7 behavior.
 
 Most Debian based distros are shipped with v2.10 as of March 2026, so this manual upgrade may be needed if 6GHz band testing is important.
 
